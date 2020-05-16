@@ -7,7 +7,9 @@ public class AnimalMain {
 		Pet sushi = new Pig("pigpig");
 		Pet pigpig = new Dog("dogdog");
 		Pet temp = pigpig;
+		Pet catcat = new Cat("catcat");
 		
+		catcat.speak();
 		pigpig = sushi;
 		sushi = temp;
 		
